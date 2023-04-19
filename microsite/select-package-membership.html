@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Select Package Membership</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <a href="form-add-customer.html" class="d-flex align-items-center z-index-1"><img src="assets/images/arrow-icon.svg" alt=""/></a>
+            <h4 class="position-absolute text-center start-0 end-0 m-0">Select Package</h4>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card-body p-0">
+                <div class="account-card border-0">
+                    <div class="avatar">KL</div>
+                    <div class="d-flex flex-column gap-1 text-white">
+                        <h5 class="m-0">Karina Liverina</h5>
+                        <p class="m-0">karina.liverina@gmail.com</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="pricing-item">
+                                <div class="">
+                                    <h4>CORP MEMBER</h4>
+                                </div>
+                                <div class="pricing-price">
+                                    <p class="m-0">1 Year</p>
+                                    <h5 class="text-primary">Rp 23.040.000</h5>
+                                </div>
+                                <div class="pricing-description">
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li class="pl-3 pr-3">Unlimited Access</li>
+                                        <li class="pl-3 pr-3">Free Storage Box</li>
+                                        <li class="pl-3 pr-3">Max. 10 trainee</li>
+                                        <li class="pl-3 pr-3">Help center access</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-button">
+                                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalSubTotal">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="pricing-item">
+                                <div class="">
+                                    <h4>CORP ADD ON</h4>
+                                </div>
+                                <div class="pricing-price">
+                                    <p class="m-0">1 Year</p>
+                                    <h5 class="text-primary">Rp 5.200.000</h5>
+                                </div>
+                                <div class="pricing-description">
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li class="pl-3 pr-3">Unlimited Access</li>
+                                        <li class="pl-3 pr-3">Free Storage Box</li>
+                                        <li class="pl-3 pr-3">Max. 4 trainee</li>
+                                        <li class="pl-3 pr-3">Help center access</li>
+                                    </ul>
+                                </div>
+                                <div class="pricing-button">
+                                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalSubTotal">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Follow us on</p>
+        <div>
+            <a href="#" style="margin:0 1rem;display: inline-block;"><img src="assets/images/facebook-icon.svg" width="14" alt="" /></a>
+            <a href="#" style="margin:0 1rem;display: inline-block;"><img src="assets/images/instagram-icon.svg" width="14" alt="" /></a>
+            <a href="#" style="margin:0 1rem;display: inline-block;"><img src="assets/images/twitter-icon.svg" width="14" alt="" /></a>
+            <a href="#" style="margin:0 1rem;display: inline-block;"><img src="assets/images/youtube-icon.svg" width="14" alt="" /></a>
+            <a href="#" style="margin:0 1rem;display: inline-block;"><img src="assets/images/tiktok-icon.svg" width="14" alt="" /></a>
+        </div>
+        <div>&copy; copyright 2023 GRID. All right reserved.</div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalSubTotal" tabindex="-1" aria-labelledby="modalSubTotalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title text-dark fs-5" id="modalSubTotalLabel">Checkout</h1>
+                </div>
+                <div class="modal-body">
+                    <h5 class="text-dark mb-3">CORPORATE PACKAGE - CORP MEMBER</h5>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="text-primary m-0 flex-shrink-0">Rp 23.040.000</h5>
+                        <div class="qty">
+                            <span class="minus bg-dark">-</span>
+                            <input type="number" class="count" name="qty" value="1">
+                            <span class="plus bg-dark">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <a href="checkout.html" class="btn btn-primary">Checkout - Rp 23.040.000</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
