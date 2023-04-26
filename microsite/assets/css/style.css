@@ -160,6 +160,7 @@ button, input {
 .text-primary{
     color: #0090a9!important;
 }
+
 .text-white{
     color: #fff;
 }
@@ -176,6 +177,20 @@ button, input {
     font-weight: bold;
 }
 .btn-primary:hover{
+    text-decoration: none;
+    background-color: #0090a9;
+    border: 1px solid #0090a9;
+    color: #000;
+}
+.btn-outline-primary{
+    display:inline-block;
+    padding:1em 1.5em;
+    background-color:#000;
+    border: 1px solid #02B5D3;
+    color: #02B5D3;
+    font-weight: bold;
+}
+.btn-outline-primary:hover{
     text-decoration: none;
     background-color: #0090a9;
     border: 1px solid #0090a9;
@@ -308,7 +323,15 @@ input::-webkit-inner-spin-button {
 input:disabled{
     background-color:white;
 }
-         
+.accordion-item{
+    border:1px solid #333;
+}
+.accordion-button::after{
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
 @media screen and (max-width: 720px) {
     .email-container {
         padding: 1rem!important;
